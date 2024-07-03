@@ -1,0 +1,4 @@
+Enabled: true
+BlacklistedCommands:
+  - /rtpqueue
+CombatMessage: "&cYou cannot do this, you are still in combat!"

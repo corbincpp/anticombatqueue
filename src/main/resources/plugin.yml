@@ -1,0 +1,13 @@
+name: AntiCombatQueue
+version: '${project.version}'
+main: org.corbin.anticombatqueue.AntiCombatQueue
+api-version: '1.20'
+commands:
+  anticombatqueue:
+    description: AntiCombatQueue management commands
+    usage: /anticombatqueue reload
+permissions:
+  anticombatqueue.reload:
+    description: Allows the user to reload the AntiCombatQueue configuration
+    default: op
+softdepend: [DeluxeCombat]
